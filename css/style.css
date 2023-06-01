@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+header {
+    display: flex;
+    background-color: #222222;
+    justify-content: space-between;
+    height: 100px;
+}
+.header-left {
+    margin-left: 2em;
+    align-items: center;
+    display: flex;
+}
+.header-left h1 { 
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 1em;
+}
+.title-first {
+    color: #39B24A;
+}
+.title-second {
+    color: #FFFFFF;
+}
+.title-third {
+    color: #FC200C;
+}
+.header-right {
+    display: flex;
+    list-style: none;
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 16px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 0.2;
+}
+.main-section {
+    margin: 3.6% 5%;
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+}
+.main-left {
+    background-image: url("/imagenes/delivery.jpg");
+    background-size: cover;
+    background-position: 50% 5%;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FC200C;
+    width: 49.5%;
+}
+.main-left p{
+    margin-left: 1em;
+}
+.main-left span{
+    color: #FFFFFF;
+}
+.main-right {
+    width: 49.5%;
+    font-weight: 700;  
+}
+.main-right-top{
+    color: #FC200C;
+    text-align: center;
+}
+.main-right-top h1 {
+    font-size: 28px;
+}
+.main-right-bottom {
+    display: flex;
+    color: #222222;
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+}
+.main-right-bottom img {
+    height: 129px;
+    align-self: center;
+}
+footer{ 
+    display: flex;
+    background-color: #222222;
+    justify-content: space-between;
+    height: 150px;
+}
+.nav-left {
+    color: #F3F3F3;
+    margin-left: 2em;
+
+}
+.nav-right { 
+    align-items: center;
+    display: flex;
+    margin-right: 2em;
+}
+.nav-right h1 { 
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 1em;
+}
