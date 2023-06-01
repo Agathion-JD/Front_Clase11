@@ -46,7 +46,7 @@ header {
     height: 450px;
 }
 .main-left {
-    background-image: url("/imagenes/delivery.jpg");
+    background-image: url("../imagenes/delivery.jpg");
     background-size: cover;
     background-position: 50% 5%;
     font-weight: 700;
